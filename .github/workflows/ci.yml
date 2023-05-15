@@ -31,10 +31,10 @@ jobs:
         profile: minimal
 
     - name: Build
-      run: cargo build --locked --verbose
+      run: cargo build --verbose
 
     - name: Test
-      run: cargo test --locked --verbose
+      run: cargo test --verbose
 
   lint:
     name: Rustfmt and Clippy
