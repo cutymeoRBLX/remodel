@@ -74,7 +74,7 @@ jobs:
           profile: minimal
 
       - name: Build Release
-        run: cargo build --release --locked --verbose
+        run: cargo build --release --verbose
         env:
           # Build into a known directory so we can find our build artifact more
           # easily.
