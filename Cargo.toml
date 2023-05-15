@@ -1,6 +1,6 @@
 [package]
 name = "remodel"
-version = "0.11.0"
+version = "0.11.1"
 description = "A tool to read, modify, and write Roblox objects."
 authors = ["Lucien Greathouse <me@lpghatguy.com>"]
 edition = "2018"
@@ -20,11 +20,11 @@ panic = "abort"
 panic = "abort"
 
 [dependencies]
-rbx_binary = "0.6.4"
-rbx_dom_weak = "2.3.0"
+rbx_binary = "0.7.0"
+rbx_dom_weak = "2.4.0"
 rbx_reflection = "4.2.0"
-rbx_reflection_database = "0.2.4"
-rbx_xml = "0.12.3"
+rbx_reflection_database = "0.2.6+roblox-572"
+rbx_xml = "0.13.0"
 
 anyhow = "1.0.44"
 backtrace = "0.3.61"
